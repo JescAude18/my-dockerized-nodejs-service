@@ -1,0 +1,13 @@
+{
+  "name": "my-dockerized-nodejs-service",
+  "version": "1.0.0",
+  "description": "A simple nodejs service with two routes ('/' and '/secret' routes) to be dockerized and deployed to a remote Linux Server using Github Actions.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --env-file=.env server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
