@@ -15,7 +15,7 @@ A small Node.js HTTP service with a public health-style endpoint and a Basic Aut
 
 ## Requirements
 
-- Node.js 20.6.0 or later, because the service uses Node.js's built-in `--env-file` option.
+- Node.js 20.6.0 or later
 
 ## Configuration
 
